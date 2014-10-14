@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export GRADLE_HOME=/usr/lib/edda/lib
+export GRADLE_USER_HOME=/usr/lib/edda/lib
 export CLASSPATH_JARS="
 /usr/share/java/log4j.jar
 "
