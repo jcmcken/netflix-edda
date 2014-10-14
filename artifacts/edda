@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ROOT_DIR=$(readlink -f $(dirname $0)/..)
+GRADLEW=$ROOT_DIR/bin/gradlew
+
+$GRADLEW jettyRun

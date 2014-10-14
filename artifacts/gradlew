@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ROOT_DIR=$(readlink -f $(dirname $0)/..)
+
+source $ROOT_DIR/etc/edda-env.sh
+
+$ROOT_DIR/src/gradlew --no-daemon --project-dir $ROOT_DIR/src $@
