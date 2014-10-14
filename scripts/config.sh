@@ -1,5 +1,6 @@
 # Env info
 UMASK=0022
+WORKING_DIR=/tmp
 
 # Deploy directory information
 # NOTE: Gradle doesn't currently support vendoring dependencies with
