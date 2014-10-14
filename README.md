@@ -1,7 +1,7 @@
 # netflix-edda
 
 A set of build scripts for instantiating a "disconnected" version of
-Netflix's ``edda`` appliction.
+Netflix's ``edda`` application.
 
 Once built, this installation does not require any external network
 dependencies and can be packaged up and installed on a private host.
@@ -36,9 +36,10 @@ To launch, navigate to ``/usr/lib/edda`` and run ``./bin/edda``.
 # Disconnected Rebuilds
 
 If you want to rebuild ``edda`` in a disconnected mode, first install it
-and distribute it to the destination host.
+and distribute it to the destination host. Also distribute the build scripts
+to that host.
 
-Next, just run ``make compile``.
+Next, just run ``make compile`` from the project root.
 
 Note that you may need to install ``log4j`` in order to get the tests to pass.
 Update ``etc/edda-env.sh`` with the appropriate jar file before rebuilding.
